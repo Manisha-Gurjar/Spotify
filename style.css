@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a.navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: 20px;
+    margin-left: 60px;
+    width: 40%;
+    
+}
+ul.navbar-nav {
+    justify-content: end;
+}
+a.nav-link{
+    display: space-between;
+    color: white;
+   
+}
+.navbar-nav{
+width: 80%;
+}
+.hero-section{
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    color: #fff;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+.new-image img{
+    height: 540px;
+   padding-top: 90px;
+   padding-left: 100px;
+}
+.new-text h1{
+    font-size: 60px;
+    font-weight: 95px;
+    padding-right: 70px;
+}
+ .new-text button{  
+margin-top: 30px;
+width: 190px;
+height: 50px;
+font-weight: 90px;
+border-radius: 500px;
+border: 3px solid transparent;
+
+
+}
+.section-1{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 80px; */
+    padding-left: 70px;
+ border: none;
+    padding-right: 70px;
+}
+.section-1 .card.text-center{
+    border: none;
+}
+.card img{
+    height: 140px;
+    width: 140px;
+}
+.card-body h1{
+    font-size: 30px;
+}
+.heading{
+   padding-left: 500px;
+   padding-top: 80px;
+   font-weight: 40px;
+}
+/* section-2 */
+.section-2{
+    height: 70vh;
+    text-align: center;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    color: #fff;
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: 80px;
+   
+}
+.card.text-center {
+    align-items: center;
+    
+}
+.section-3{
+    height: 90vh;
+    padding: 80px;
+}
+.section-3 h1{
+    text-align: center;
+}
+.section-3 ul{
+    margin-top: 80px;
+
+}
+.section-3 li{
+   padding-top: 20px;
+}
+.section-4{
+    height: 80vh;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+}
+.section-4 h1{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+}
+.section-4 button{  
+    margin-top: 30px;
+    width: 190px;
+    height: 50px;
+    font-weight: 90px;
+    border-radius: 500px;
+   margin-left: 560px;
+    border: 3px solid transparent;
+}
+.footer{
+    
+    width: 100%;
+    display: flex;
+
+   
+}
+.footer ul{
+  margin-left: 180px;
+  display: block;
+    list-style: none;
+    color: #fff;
+
+
+}
+footer ul li{
+   
+}
+.footer-section{
+    width: 100%;
+    background-color: black;
+    height: 90vh;
+
+}
+.gallary {
+    width: 100%;
+    text-align: center;
+}
+
+.gallary img {
+    margin: 10px;
+}
