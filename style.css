@@ -1,9 +1,11 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');    
+* {
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+box-sizing: border-box;
+margin: 0;
+font-family: 'Roboto', sans-serif;
 }
+
 a.navbar-brand{
     color: white;
     font-size: 25px;
@@ -12,6 +14,13 @@ a.navbar-brand{
     width: 40%;
     
 }
+
+
+@media (max-width: 768px){
+.nav-items {
+    display: none;
+}
+}
 ul.navbar-nav {
     justify-content: end;
 }
@@ -19,6 +28,11 @@ a.nav-link{
     display: space-between;
     color: white;
    
+}
+.navbar-brand img{
+
+   width: 120px;
+margin-bottom: 15px;
 }
 .navbar-nav{
 width: 80%;
@@ -32,10 +46,49 @@ width: 80%;
     justify-content: space-between;
     padding: 100px;
 }
+
+@media (max-width: 768px){
+.hero-section {
+    height: 450px;
+    padding: 20px 20px;
+}}
+.new-image{
+background-color: white;
+    height: 450px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 40px 40px 0 0;
+    margin-top: 110px;
+  margin-left: 150px;
+}
+
+@media (max-width: 768px){
+.new-image {
+    display: none;
+}
+}
+
+.new-image p {
+    height: 10px;
+    width: 70px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
 .new-image img{
-    height: 540px;
-   padding-top: 90px;
-   padding-left: 100px;
+    height: 380px;
+    width: 260px;
+}
+
+
+@media (max-width: 768px){
+.new-text {
+    height: auto;
+    padding-bottom: 30PX;
+}
 }
 .new-text h1{
     font-size: 60px;
@@ -103,6 +156,7 @@ border: 3px solid transparent;
     margin-top: 80px;
 
 }
+
 .section-3 li{
    padding-top: 20px;
 }
@@ -149,11 +203,38 @@ footer ul li{
     height: 90vh;
 
 }
+
+
+
 .gallary {
     width: 100%;
     text-align: center;
+  color:gray;
+    
 }
 
 .gallary img {
     margin: 10px;
+}
+.navbar-brand img {
+   margin-top: 40px;
+}
+
+.gallary-2{
+    width: 100%;
+   
+}
+.gallary-2 ul{
+    width: 450px;
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+.gallary-2 p{
+    color: gray;
+    margin-left: 990px;
+    font-weight: 400;
+    font-size: 15px;
 }
